@@ -7,7 +7,7 @@ layout: default
     {{ page.title }}
   </h1>
 
-  <span class="post-date">
+<!--   <span class="post-date">
     {{ site.data.settings.post_date_prefix }}
     {% assign d = page.date | date: "%-d"  %}
     {{ page.date | date: "%B" }}
@@ -24,7 +24,7 @@ layout: default
       {{ site.author }}
     {% endif %}
   </span>
-
+ -->
   {% if page.image %}
     <div class="featured-image">
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
@@ -34,7 +34,7 @@ layout: default
   <article>
     {{ content }}
   </article>
-
+<!-- 
   <div class="post-share">
     <div class="post-date">{{ site.data.settings.sharing_button_prompt }}</div>
     <div class="sharing-icons">
@@ -79,3 +79,4 @@ layout: default
   {% endif %}
 
 </div>
+ -->
