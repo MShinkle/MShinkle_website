@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Educational"
+title: "Education"
 image: unr_campus.jpg
 ---
 
